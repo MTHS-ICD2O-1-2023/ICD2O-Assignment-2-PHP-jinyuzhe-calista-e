@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Area of Triangle, in PHP" />
+    <meta name="description" content="Area of Parallelogram, in PHP" />
     <meta name="keywords" content="mths, icd2o" />
     <meta name="author" content="Calista.E" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,34 +13,34 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
-    <title>Area of Triangle,in PHP</title>
+    <title>Area of Parallelogram,in PHP</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Area of Triangle, in PHP</span>
+          <span class="mdl-layout-title">Area of Parallelogram, in PHP</span>
         </div>
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/area_of_trinagle.png" alt="laptop image" width="250" />
+          <img src="./images/area_image.png" alt="laptop image" width="250" />
         </div>
         <div class="page-content-php">
           <div id="user-info">
             <?php
-            $baseOfTriangle = $_POST["base-of-triangle"];
-            $heightOfTriangle = $_POST["height-of-triangle"];
+            $baseOfParallelogram = $_POST["base-of-parallelogram"];
+            $heightOfParallelogram = $_POST["height-of-parallelogram"];
 
             // process
-            $area = $baseOfTriangle * $heightOfTriangle * 0.5;
+            $area = $baseOfParallelogram * $heightOfParallelogram;
 
             // output
-            echo "If a triangle has base = " . $baseOfTriangle . " cm and the height = " . $heightOfTriangle . " cm:";
+            echo "If a parallelogram has base = " . $baseOfParallelogram . " cm and the height = " . $heightOfParallelogram . " cm:";
             echo "<br />";
             echo "<br />";
-            echo "The area of the triangle is " . $area . " cm².";
+            echo "The area of the parallelogram is " . $area . " cm².";
             ?>
           </div>
         </div>

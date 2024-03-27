@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Area of Triangle, in PHP" />
+    <meta name="description" content="Area of Parallelogram, in PHP" />
     <meta name="keywords" content="mths, icd2o" />
     <meta name="author" content="Calista.E" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,33 +13,33 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
-    <title>Area and of Triangle,in PHP</title>
+    <title>Area of Parallelogram,in PHP</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Area of Triangle, in PHP</span>
+          <span class="mdl-layout-title">Area of Parallelogram, in PHP</span>
         </div>
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/area_of_trinagle.png" alt="laptop image" width="250" />
+          <img src="./images/area_image.png" alt="laptop image" width="250" />
         </div>
         <br />
         <div class="page-content">Enter the base and height in cm.</div>
         <div class="page-content-php">
           <form action="answer.php" method="POST">
             <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-of-triangle">
-              <label class="mdl-textfield__label" for="base-of-triangle">Base of triangle (cm)</label>
+              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="base-of-parallelogram">
+              <label class="mdl-textfield__label" for="base-of-parallelogram">Base of parallelogram (cm)</label>
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
             <br />
             <div class="mdl-textfield mdl-js-textfield">
-              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-triangle">
-              <label class="mdl-textfield__label" for="height-of-triangle">Height of triangle (cm)</label>
+              <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="height-of-parallelogram">
+              <label class="mdl-textfield__label" for="height-of-parallelogram">Height of parallelogram (cm)</label>
               <span class="mdl-textfield__error">Input is not a number!</span>
             </div>
             <br />
